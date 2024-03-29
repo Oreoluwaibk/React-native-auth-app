@@ -48,7 +48,7 @@ export default function LoginScreen() {
             secureTextEntry
             // passwordRules={true}
           />
-          <TouchableOpacity className="py-2">
+          <TouchableOpacity className="py-2" onPress={() => navigation.navigate("Forgot")}>
             <Text className="text-lg text-secondary text-right">Forgot Password</Text>
           </TouchableOpacity>
           <TouchableOpacity

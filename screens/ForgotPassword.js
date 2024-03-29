@@ -29,7 +29,7 @@ export default function ForgotPassword() {
           />
         </View>
 
-        <View className="flex-1 flex flex-col px-4 py-2 pb-24 bg-primary rounded-t-3xl pt-12">
+        <View className="flex-1 flex flex-col px-4 py-2 pb-24 bg-primary rounded-t-3xl pt-20">
           <Text 
             className="text-secondary text-4xl font-bold text-center pb-4 mb-2"
           >

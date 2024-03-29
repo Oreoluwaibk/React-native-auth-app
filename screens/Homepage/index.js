@@ -10,7 +10,7 @@ import SettingScreen from './SettingScreen';
 const Tabs = createBottomTabNavigator();
 export default function HomePage() {
   return (
-    <NavigationContainer>
+    <NavigationContainer independent={true}>
         <Tabs.Navigator initialRouteName="Home">
             <Tabs.Screen name="Home" component={HomeScreen}/>
             <Tabs.Screen name="Profile" component={ProfileScreen} />

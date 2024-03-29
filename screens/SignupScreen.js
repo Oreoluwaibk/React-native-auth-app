@@ -29,7 +29,7 @@ export default function SignupScreen() {
           />
         </View>
 
-        <View className="flex-1 flex flex-col px-4 py-2 bg-primary rounded-t-3xl pt-6 h-full">
+        <View className="flex-1 flex flex-col px-4 py-2 bg-primary rounded-t-3xl pt-12 h-full">
           <Text 
             className="text-secondary text-4xl font-bold text-center pb-2 mb-2"
           >
